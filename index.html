@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <!--title changed from "website"-->
+    <title>Horiseon Marketing Solutions</title>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+    <!--Using section as opposed to div here as the only relevance of that div was to separate the header from the rest of the file-->
+    <section class="header">
+        <!--span ".seo" is the only element of its type, therefore an id would be the correct choice as opposed to a class -->
+        <h1>Hori<span id="seo">seo</span>n</h1>
         <div>
             <ul>
                 <li>
@@ -23,7 +26,8 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </section>
+    <!--extra line of space added here for improved code readability-->
     <div class="hero"></div>
     <div class="content">
         <div class="search-engine-optimization">
