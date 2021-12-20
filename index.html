@@ -11,7 +11,7 @@
 <body>
     <!--Using section as opposed to div here as the only relevance of that div was to separate the header from the rest of the file-->
     <section class="header">
-        <!--span ".seo" is the only element of its type, therefore an id would be the correct choice as opposed to a class -->
+        <!--span ".seo" is the only element of its type, therefore an id would be the more efficient choice as opposed to a class -->
         <h1>Hori<span id="seo">seo</span>n</h1>
         <div>
             <ul>
@@ -27,8 +27,10 @@
             </ul>
         </div>
     </section>
+
     <!--extra line of space added here for improved code readability-->
     <div class="hero"></div>
+    <!--withing this content div, there is no need to have both an id and a class for each h2 heading as all h2 headings share identicla formatting this creates redundancy in both the html and css-->
     <div class="content">
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
